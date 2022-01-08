@@ -1,0 +1,7 @@
+app:
+  id: account-service
+apollo:
+  bootstrap:
+    enabled: true
+    namespaces:  application,javaWeb.spring-boot-http,test,yamlTest.yml
+hello:  你好

@@ -1,0 +1,11 @@
+/.idea/
+/target/
+**/target/
+/logs/**
+rpc.iml
+/classes/**
+*.iml
+**.log
+
+
+/dependency-reduced-pom.xml
