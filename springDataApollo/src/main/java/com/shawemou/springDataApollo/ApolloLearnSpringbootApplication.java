@@ -7,7 +7,8 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 /**
- *
+ * 需要配置vm options
+ * -Denv=dev -Dapollo.cacheDir=/opt/data/apollo‐config -Dapollo.cluster=DEFAULT
  */
 @SpringBootApplication
 @ServletComponentScan
